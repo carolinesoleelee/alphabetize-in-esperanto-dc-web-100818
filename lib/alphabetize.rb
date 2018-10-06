@@ -1,4 +1,4 @@
 def alphabetize(arr)
   new = []
- arr.first
+ arr.index
 end
