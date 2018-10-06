@@ -1,3 +1,4 @@
 def alphabetize(arr)
- arr[0]
+ arr.sort_by do |x|
+   x[0]
 end
