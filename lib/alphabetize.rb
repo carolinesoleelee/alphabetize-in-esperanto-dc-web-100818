@@ -1,4 +1,5 @@
 def alphabetize(arr)
-
- arr.index
+ arr.sort_by do |x|
+   x.first
+ end
 end
