@@ -1,6 +1,3 @@
 def alphabetize(arr)
- arr.sort_by do |x|
-   x.first
-   x
- end
+ arr.index(0)
 end
