@@ -1,5 +1,9 @@
-def alphabetize(arr)
- arr.sort_by do |x|
-   x[0].sort
-end
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
+def alphabetize(sentences_array)
+  sentences_array.sort_by do |sentence|
+    sentence.split("").map do |character|
+      ESPERANTO_ALPHABET.index(character)
+    end
+  end
 end
