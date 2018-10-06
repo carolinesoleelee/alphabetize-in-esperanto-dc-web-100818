@@ -1,3 +1,4 @@
 def alphabetize(arr)
- arr.split(" ")
+  new = []
+ arr.first
 end
