@@ -1,7 +1,7 @@
 def alphabetize(arr)
   arr.sort_by do |sentence|
     sentence.split("").collect do |character|
-      ESPERANTO_ALPHABET.index(character)
+     character
     end
   end
 end
