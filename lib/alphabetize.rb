@@ -1,3 +1,3 @@
 def alphabetize(arr)
- arr.index(0)
+ arr[index]
 end
