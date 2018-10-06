@@ -1,4 +1,5 @@
 def alphabetize(arr)
-  arr.sort_by {|a| a.name[0].to_i}
-
+  arr.sort_by do |a|
+    a[0].to_i
+end
 end
